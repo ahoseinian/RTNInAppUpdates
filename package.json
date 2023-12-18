@@ -1,0 +1,42 @@
+{
+  "name": "rtn-in-app-updates",
+  "version": "0.0.3",
+  "description": "Add numbers with Turbo Native Modules",
+  "react-native": "js/index",
+  "source": "js/index",
+  "files": [
+    "js",
+    "android",
+    "ios",
+    "rtn-in-app-updates.podspec",
+    "!android/build",
+    "!ios/build",
+    "!**/__tests__",
+    "!**/__fixtures__",
+    "!**/__mocks__"
+  ],
+  "keywords": [
+    "react-native",
+    "android"
+  ],
+  "repository": "https://github.com/ahoseinian/rtn-in-app-updates",
+  "author": "Amir Hoseinian (https://github.com/ahoseinian)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ahoseinian/rtn-in-app-updates/issues"
+  },
+  "homepage": "https://github.com/ahoseinian/rtn-in-app-updates#readme",
+  "devDependencies": {},
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "codegenConfig": {
+    "name": "RTNInAppUpdatesSpec",
+    "type": "modules",
+    "jsSrcsDir": "js",
+    "android": {
+      "javaPackageName": "com.rtnin_app_updates"
+    }
+  }
+}
