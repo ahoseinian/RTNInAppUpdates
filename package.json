@@ -1,6 +1,6 @@
 {
   "name": "rtn-in-app-updates",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Add support for in-app-updates on Android",
   "react-native": "js/index",
   "source": "js/index",
